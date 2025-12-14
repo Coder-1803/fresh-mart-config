@@ -1,0 +1,4 @@
+spring:
+  mongodb:
+    uri: mongodb+srv://neharkaramit86_db_user:cMflO310LR9TNUro@user-data.ejaaeer.mongodb.net/?appName=user-data
+    database: userdb
