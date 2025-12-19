@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/productdb
+    username: admin
+    password: admin
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: updadte
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    properties:
+          hibernate: 
+            format-sql: true
+server:
+  port: 8082
