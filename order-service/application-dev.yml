@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    #url: jdbc:mysql://localhost:3306/orderdb
+    url: jdbc:postgresql://localhost:5432/orderdb
+    username: admin
+    password: admin
+  jpa:
+    database: POSTGRESQL
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: updadte
+    properties:
+      hibernate: 
+        format-sql: true
+server:
+  port: 8083
