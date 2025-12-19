@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ep-misty-wildflower-aefg0a1h-pooler.c-2.us-east-2.aws.neon.tech/order?sslmode=require&channel_binding=require
+    username: neondb_owner
+    password: npg_xztDepd5Au9W
+  jpa:
+    database: POSTGRESQL
+    show-sql: true
+    hibernate:
+      ddl-auto: updadte
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
